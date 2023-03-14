@@ -12,11 +12,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #03a9f4;
 }
-
+/* конейнер */
 .container {
   width: 800px;
   height: 500px;
+  padding: 40px 0;
+}
 
-  outline: solid;
+/* Внутрішній блок */
+.block {
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgb(0, 0, 0, 0.2);
+
+  display: flex;
+  align-items: center;
+}
+.block__item {
+  width: 50%;
+}
+
+/* Елементи блоку */
+.block-item {
+  text-align: center;
+}
+
+.block-item__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.block-item__btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-color: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
 }
