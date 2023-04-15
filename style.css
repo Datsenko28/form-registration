@@ -30,7 +30,7 @@ body.active {
 /* Внутрішній блок */
 .block {
   height: 100%;
-  background-color: rgba(248, 241, 241, 0.2);
+  background-color: rgba(243, 239, 239, 0.2);
   box-shadow: 0 5px 45px rgb(0, 0, 0, 0.2);
 
   display: flex;
