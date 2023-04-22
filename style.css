@@ -89,6 +89,8 @@ body.active {
   width: 100%;
   padding: 50px;
   font-size: 16px;
+
+  position: absolute;
 }
 
 .form__title {
@@ -111,6 +113,10 @@ body.active {
   background-color: #03a9f4;
   color: #fff;
   padding: 10px 50px;
+}
+
+.form__btn-signup {
+  background-color: #f43648;
 }
 
 .form__forgot {

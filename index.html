@@ -24,7 +24,7 @@
       <!--Блок форми-->
       <div class="form-box">
         <!-- Форма входу -->
-        <form action="#" class="form">
+        <form action="#" class="form form__signin">
           <h3 class="form__title">Вхід</h3>
           <p>
             <input type="text" class="form__input" placeholder="Логін" />
@@ -36,6 +36,29 @@
             <button class="form__btn">Увійти</button>
           </p>
           <p><a href="#" class="form__forgot">Відновлення паролю</a></p>
+        </form>
+        <!-- Форма регістрації  -->
+        <form action="#" class="form form__signup">
+          <h3 class="form__title">Регістрація</h3>
+          <p>
+            <input type="text" class="form__input" placeholder="Логін" />
+          </p>
+          <p>
+            <input type="email" class="form__input" placeholder="Email" />
+          </p>
+          <p>
+            <input type="password" class="form__input" placeholder="Пароль" />
+          </p>
+          <p>
+            <input
+              type="password"
+              class="form__input"
+              placeholder="Підтвердіть пароль"
+            />
+          </p>
+          <p>
+            <button class="form__btn form__btn-signup">Зареєструватись</button>
+          </p>
         </form>
       </div>
     </article>
