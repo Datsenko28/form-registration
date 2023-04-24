@@ -78,6 +78,7 @@ body.active {
 
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .form-box.active {
@@ -91,6 +92,24 @@ body.active {
   font-size: 16px;
 
   position: absolute;
+  transition: 0.5s;
+}
+
+.form__signin {
+  left: 0;
+  transition-delay: 0.25s;
+}
+.form__signup {
+  left: 100%;
+  transition-delay: 0;
+}
+.form-box.active .form__signin {
+  left: -100%;
+  transition-delay: 0;
+}
+.form-box.active .form__signup {
+  left: 0;
+  transition-delay: 0.25s;
 }
 
 .form__title {
